@@ -9,8 +9,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
         width: 95%;
-
-        /* max-width: 1000px; */
+        /* max-width: 1100px; */
         margin: 20px auto;
         display: grid;
         grid-gap: 10px;
@@ -59,7 +58,7 @@ export const IconoHeader = styled.div`
 
 export const Body = styled.div`
         grid-area: body;
-
+        padding: 20px;
             @media screen and (max-width: 768px){
                 grid-column-end: 4;
             }
@@ -94,8 +93,8 @@ export const SideBar = styled.aside`
             display: flex;
             align-items: center;
             justify-content: center;
-
             grid-area: sidebar;
+
 
             @media screen and (max-width: 768px){
                 background-color: black;
